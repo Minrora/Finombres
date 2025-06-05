@@ -80,12 +80,11 @@ Voici les différentes commandes faisable avec `make`.
 
 Contributors names and contact info
 
-* Romain Bietrix
 * [@DomPizzie](https://twitter.com/dompizzie)
-* met ton contact ou un mail
+* Minrora13@gmail.com
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details 
+This project is licensed under the Free License - see the LICENSE.md file for details 
 
 ## Bibliographie
 
