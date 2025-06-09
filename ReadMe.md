@@ -82,9 +82,6 @@ Voici les différentes commandes faisable avec `make`.
 Contributeurs et informations de contact
 
 * Minrora13@gmail.com
-## License
-
-This project is licensed under the Free License - see the LICENSE.md file for details 
 
 ## Bibliographie
 
