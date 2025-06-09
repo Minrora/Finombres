@@ -81,7 +81,6 @@ Voici les différentes commandes faisable avec `make`.
 
 Contributeurs et informations de contact
 
-* [@DomPizzie](https://twitter.com/dompizzie)
 * Minrora13@gmail.com
 ## License
 
