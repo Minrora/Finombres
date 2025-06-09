@@ -52,25 +52,26 @@ Le dépot est organisé en une variété de fichiers.
 
 * main.ml - Fichier appelant les autres méthodes dans les autres fichiers.
 * Perso.ml - Contient les fonctions de bases utiles au TIPE sur les Finombres.
-* plan.ml - Contient les fonctions pour représenter les ensembles E_4, E_n (voir rapport).
+* plan.ml - [TODO] Contient les fonctions pour représenter les ensembles E_4, E_n (voir rapport). 
 
-Création de graphiques : 
-* younggraph.ml - Créer un graphe de représentation des palintuples d'une base a l'autre.
+Création de représentations graphiques : 
+* younggraph.ml - Créer un graphe de représentation des palintuples, formalisé par Young, et retravaillé par L. H. Kendrick (voir références).
 * graphgenerator.ml - Construit le graphe des successeur dans un format .dot.
 * graphicgenerator.ml - Utilitaire pour manipuler le module graphics plus simplement.
-* pixelure.ml - Construit l'image représentant les Finombres et les Infinombres.
+* pixelure.ml - Construit l'image représentant les Finombres et les Infinombres. (Comme un tableau de pixels)
 
 Utilitaire : 
-* writer.ml - Fichier de fonctione intermediaire permettant d'écrire dans un fichier.
+* writer.ml - Fichier de fonctions intermediaire permettant d'écrire dans un fichier.
 * scale.ml - Permet de manipuler les sequence de nombre plus facilement.
 
 ## Execution
 Voici les différentes commandes faisable avec `make`.
 * `find_nature` - trouve la nature de tout les nombres de 0 a 10·000·000
-* `find_vol` - trouve le temps de vol des nombres de 10·000 a 1·000·000 (je crois ??)
+* `find_vol` - trouve le temps de vol des nombres de 0 a 1·000·000, avec une sauvegarde tous les 10 000 nombres.
+* `fruit` - commande de test. Renvoie fruit.
 * `graphic` - Affiche la fonction de répartition des Finombres et Infinombres jusqu'à 50000.
-* `grid_vol` - Affiche un graphique des temps de vol des entier.
-* `kpalintiple` - Calcule les k-palintuples et affiche 10 images de kpalintuples. (cursed un peu je comprend pas ce qui s'affiche x))) 
+* `grid_vol` - Affiche un graphique des temps de vol des entier. (majoré par 9 à cause de contraintes techniques expliquées dans Annexe.pdf)
+* `kpalintiple` - Calcule les k-palintuples et affiche 10 images de kpalintuples. (à mieux docummenter, obscure (renvoie les palintiples avec k = 9)) 
 * `nature_finder_from` - Trouve la nature des entier depuis un certain nombre de départ.
 * `pixel` - Génère une sequence d'infinombre et finombre et affiche leur nature.
 * `plan` - TODO
@@ -78,7 +79,7 @@ Voici les différentes commandes faisable avec `make`.
 
 ## Auteurs
 
-Contributors names and contact info
+Contributeurs et informations de contact
 
 * [@DomPizzie](https://twitter.com/dompizzie)
 * Minrora13@gmail.com
