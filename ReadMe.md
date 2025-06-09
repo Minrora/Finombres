@@ -39,7 +39,7 @@ opam install graphics
 Pour installer le projet :
 * cloner d'abord le projet
 ```
-git clone [URL fournit par github]
+git clone https://github.com/Minrora/Finombres.git
 ```
 * lancer le makefile avec les différent argument possibles. (tapoter tab pour voir les suggestions)
 ```
